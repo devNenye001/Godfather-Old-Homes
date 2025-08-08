@@ -1,0 +1,168 @@
+.ContactPage {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  overflow-x: hidden;
+}
+
+.contactHeading {
+   height: 50vh;
+   background-image: url("apartments.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  animation: slideInDown 1s ease-in-out;
+}
+
+.contactHeading .navbar {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+ 
+  
+}
+
+/* .contactHeading::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+.contactHeading h1 {
+  position: relative;
+  color: #fff;
+  font-size: 3rem;
+  z-index: 2;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.contactFormSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+  gap: 40px;
+  background-color: #f9f9f9;
+}
+
+.contactInfo {
+  flex: 1;
+  min-width: 280px;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.contactInfo h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contactInfo p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialIcons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.contactForm {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.contactForm h2 {
+  font-size: 1.5rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contactForm button {
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #3e3e3e;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactFormSection {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .contactHeading h1 {
+    font-size: 2rem;
+  }
+}

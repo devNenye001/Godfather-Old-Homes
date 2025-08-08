@@ -1,0 +1,95 @@
+/* Hero Section */
+.Hero {
+  width: 100vw;
+  height: 600px;
+  background-image: url("/public/home5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-content {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  animation: fadeIn 1.5s ease-in-out;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  opacity: 0.94;
+}
+
+.hero-content h3 {
+  opacity: 0.94;
+  color: white;
+  font-size: 30px;
+}
+
+.typewriter {
+  border-right: 2px solid white;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 34px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .Hero {
+    height: 80vh;
+  }
+
+  .hero-content h3 {
+    color: white;
+    font-size: 20px;
+  }
+}

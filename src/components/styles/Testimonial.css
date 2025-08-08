@@ -1,0 +1,104 @@
+.testimonial-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.testimonial-header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 350px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Delay each card based on position */
+.testimonial-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.testimonial-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.testimonial-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.testimonial-card h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.testimonial-message {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.star {
+  color: #ffb703;
+  font-size: 1.2rem;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonial-user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-user h4 {
+  font-size: 1rem;
+  margin: 0;
+  color: #333;
+}
+
+.testimonial-user p {
+  font-size: 0.85rem;
+  margin: 0;
+  color: #777;
+}

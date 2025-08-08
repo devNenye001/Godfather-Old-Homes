@@ -1,0 +1,103 @@
+.about-wrapper {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  padding-bottom: 50px;
+  color: #222;
+}
+
+.about-wrapper  .navbar {
+  width: 100%;
+  padding: 10px 40px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+ 
+  
+}
+
+.about-hero {
+  height: 50vh;
+   background-image: url("apartments.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  animation: slideInDown 1s ease-in-out;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.about-section {
+  
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-section ul li {
+  margin: 12px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #444;
+}
+
+.about-section.light-bg {
+  background-color: #f0f4f7;
+}
+
+.about-section.contact {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+
+.about-section.contact h2,
+.about-section.contact p {
+  color: white;
+}
+
+.about-section.contact p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .about-section h2 {
+    font-size: 22px;
+  }
+}
