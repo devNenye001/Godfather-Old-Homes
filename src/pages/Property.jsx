@@ -11,21 +11,21 @@ const Property = () => {
     {
       id: 1,
       name: "Luxury Apartment",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 35000000,
       address: "Lekki Phase 1, Lagos"
     },
     {
       id: 2,
       name: "Penthouse View",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 48000000,
       address: "Banana Island, Lagos"
     },
     {
       id: 3,
       name: "City Studio",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 25000000,
       address: "Victoria Island, Lagos"
     },
@@ -35,21 +35,21 @@ const Property = () => {
     {
       id: 4,
       name: "Cozy Bungalow",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 30000000,
       address: "Enugu GRA, Enugu"
     },
     {
       id: 5,
       name: "Family Duplex",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 42000000,
       address: "Wuse 2, Abuja"
     },
     {
       id: 6,
       name: "Modern Mansion",
-      image: "public/house1.png",
+      image: "/house1.png",
       price: 95000000,
       address: "Asokoro, Abuja"
     },

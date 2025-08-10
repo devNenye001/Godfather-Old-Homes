@@ -17,7 +17,7 @@
 
 .about-hero {
   height: 50vh;
-   background-image: url("apartments.png");
+   background-image: url("/apartments.png");
   background-size: cover;
   background-position: center;
   display: flex;

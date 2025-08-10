@@ -59,7 +59,7 @@
   
 }
 .propertyHero {
-  background-image: url("apartments.png");
+  background-image: url("/apartments.png");
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
