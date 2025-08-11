@@ -2,7 +2,7 @@
 .Hero {
   width: 100vw;
   height: 600px;
-  background-image: url("/public/home5.jpg");
+  background-image: url("/home5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

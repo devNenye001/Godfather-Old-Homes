@@ -15,7 +15,7 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <img src="/public/LIGHT-GODFATHER-LOGO.png" alt="Godfather Real Homes" />
+          <img src="/LIGHT-GODFATHER-LOGO.png" alt="Godfather Real Homes" />
           <p className="footer-label">Address</p>
           <p className="footer-info">
             <strong>789 Queensberry Street, North</strong><br />

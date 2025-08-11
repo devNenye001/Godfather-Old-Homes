@@ -12,7 +12,7 @@ const DreamHouse = () => {
         </p>
         <Button title="Explore Properties" />
       </div>
-      <img src="/public/house.svg" alt="house" />
+      <img src="/house.svg" alt="house" />
     </div>
   );
 };

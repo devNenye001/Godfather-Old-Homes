@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Maple Residence",
     desc: "Your peaceful escape from the city’s chaos – luxury meets tranquility.",
-    img: "https://images.unsplash.com/photo-1600607687989-c7c53a9bfe20"
+    img: "/house1.png"
   },
 ];
 

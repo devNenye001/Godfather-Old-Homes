@@ -30,17 +30,17 @@ export default function LandingSection() {
       <div className="projects-grid">
         {[
           {
-            image: "/public/details.png",
+            image: "/details.png",
             title: "Modern Family Apartment",
             desc: "Stylish apartment perfect for families seeking peace and security.",
           },
           {
-            image: "/public/details.png",
+            image: "/details.png",
             title: "Luxury Duplex in Enugu",
             desc: "High-end house with all modern amenities in a serene estate.",
           },
           {
-            image: "/public/details.png",
+            image: "/details.png",
             title: "Affordable Mini-Flat",
             desc: "Smartly designed space for singles or couples — rent or buy.",
           },
@@ -73,7 +73,7 @@ export default function LandingSection() {
       >
         <div className="about-image">
           <p className="highlight">ABOUT US</p>
-          <img src="/public/homeImg.jpg" alt="Company Building" />
+          <img src="/homeImg.jpg" alt="Company Building" />
         </div>
         <div className="about-text">
           <h2>
